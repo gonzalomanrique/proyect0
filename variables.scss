@@ -1,0 +1,33 @@
+$negro : black;
+$fuente_normal : Verdana ;
+$fuente-titulo : helvetica;
+
+body{
+  color: $negro
+}
+%texto{
+  padding: 2px;
+  color: $negro;
+  font: bold 18px $fuente_normal;
+}
+.flex{
+  @extend %texto;
+  border: 1.5px;
+}
+#fecha{
+  @extend %texto;
+  font: bold 25px $fuente-titulo;
+}
+footer{
+  font: bold 22px $fuente-titulo;
+  color: white;
+  table{
+    font: bold 18px $fuente-titulo;
+  }
+}
+h1{
+  font: bold 50px $fuente-titulo;
+}
+p{
+  font: bold 20px $fuente-titulo
+}

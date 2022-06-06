@@ -1,0 +1,75 @@
+body {
+  color: black;
+  background-image: url(img/grano-fino.jpg);
+  padding: 10px;
+}
+
+#fecha, .flex {
+  padding: 2px;
+  color: black;
+  font: bold 18px Verdana;
+}
+
+.flex {
+  border: 1.5px;
+}
+
+#fecha {
+  font: bold 25px helvetica;
+}
+
+footer {
+  font: bold 22px helvetica;
+  color: white;
+}
+footer table {
+  font: bold 18px helvetica;
+}
+
+h1 {
+  font: bold 50px helvetica;
+  color: white;
+}
+
+p {
+  font: bold 20px helvetica;
+  color: white;
+}
+article{
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(150,150,150);
+  width: 400px;
+  overflow: scroll;
+}
+aside{
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(200,200,80);
+  width:400px;
+  overflow: scroll;
+}
+#fecha{
+  background-color: rgb(50,50,50)
+}
+@media screen and (max-width :800px) {
+  article{
+    width: 40%;
+  }
+  aside{
+    width: 40%;
+  }
+}
+img{
+  width: 75%;
+}
+h4{
+  color: white;
+}
+li{
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
